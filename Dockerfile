@@ -16,6 +16,7 @@ RUN mv composer.json-dist composer.json \
         roundcube/plugin-installer:dev-master \
         roundcube/carddav \
         cor/keyboard_shortcuts \
+        johndoh/contextmenu \
     && ln -sf ../../vendor plugins/carddav/vendor \
     && composer clear-cache
 
