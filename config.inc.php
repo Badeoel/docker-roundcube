@@ -20,6 +20,6 @@ $config['smtp_port'] = 587;
 $config['smtp_user'] = '%u';
 $config['smtp_pass'] = '%p';
 
-$config['plugins'] = array('carddav', 'managesieve', 'enigma','keyboard_shortcuts', 'archive', 'contextmenu', 'emoticons', 'vcard_attachments');
+$config['plugins'] = array('carddav', 'plugin-manager', 'managesieve', 'enigma','keyboard_shortcuts', 'archive', 'contextmenu', 'emoticons', 'vcard_attachments');
 
 if(getenv('ROUNDCUBE_USER_FILE')) $config['plugins'][] = 'password';
