@@ -19,7 +19,7 @@ RUN mv composer.json-dist composer.json \
         johndoh/contextmenu \
         roundcube/customizr \
         roundcube/custom-from \
-        till/plugin_manager \
+        roundcube/filters \
     && ln -sf ../../vendor plugins/carddav/vendor \
     && composer clear-cache
 
