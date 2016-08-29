@@ -16,7 +16,6 @@ RUN mv composer.json-dist composer.json \
         roundcube/plugin-installer:dev-master \
         roundcube/carddav \
         cor/keyboard_shortcuts \
-        roundcube/enigma
     && ln -sf ../../vendor plugins/carddav/vendor \
     && composer clear-cache
 
